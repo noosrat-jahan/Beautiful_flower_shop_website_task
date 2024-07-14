@@ -345,17 +345,32 @@ footer h2{
 
     .header_text_container{
         width: 100%;
-        margin-top: 50px;
+        margin-top: 25px;
+    }
+
+    .header_text_container h1{
+        width: 95%;
+        font-weight: 800;
+        font-size: 22px;
     }
 
     .shop_now_btn{
           
-        transform: translateX(-150px);
+        transform: translateX(-220px);
+
+        font-size: 1000px;    
+        transform: translateX(-170px);
+        padding: 15px;
+        color: white;
+        border: none;
+        background-color: rgb(229, 84, 115);
+        border-radius: 7px;
+        cursor: pointer;
     }
 
     .header_image_container img{
-        width: 380px;
-        height: 405px;
+        width: 230px;
+        height: 170px;
     }
 
     .featured_image_container{
