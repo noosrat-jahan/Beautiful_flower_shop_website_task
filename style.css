@@ -13,7 +13,7 @@
 .header_parent{
     width: 1280px;
     margin: auto;
-    height: 484px;
+    /* height: 484px; */
     background-color: rgb(252, 238, 241);
     display: flex;
 }
@@ -61,6 +61,7 @@
     height: 456px;
     margin-top: 28px;
     margin-left: 80px;
+    margin-bottom: 0;
 }
 
 
@@ -185,7 +186,7 @@
 
 .sign_btn{
     font-size: 15px;    
-    /* transform: translateX(-170px); */
+    /* transform: translateY(-170px); */
     padding: 10px 20px;
     color: white;
     border: none;
@@ -275,6 +276,11 @@
     
 }
 
+.get_the_deals_section input[type="email"]:focus{
+    outline: 0;
+    
+}
+
 
 .get_the_deals_section input[type="submit"]{
     width: 85px;
@@ -321,4 +327,51 @@ footer h2{
 .copyright{
     font-size: 12px;
     opacity: 0.36;
+}
+
+
+.hide{
+    display: none;
+}
+
+
+
+/* responsiveness for small / mobile devices */
+@media screen and (max-width:576px){
+    .header_parent{
+        width: 576px;
+        flex-direction: column;
+    }
+
+    .header_text_container{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .shop_now_btn{
+          
+        transform: translateX(-150px);
+    }
+
+    .header_image_container img{
+        width: 380px;
+        height: 405px;
+    }
+
+    .featured_image_container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .instagram_section_image_container img{
+        width: 182px;
+        height: 220px;
+        /* flex-wrap: wrap; */
+    }
+
+    .featured_flower_section{
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
 }
